@@ -4,17 +4,17 @@
     
    
 }
-/*ekrani tamamen boyamak icin denedim olmadi*/
+
 .body {
-    background: linear-gradient(to bottom, #000 60%, transparent 60%), url('1.jpg') no-repeat center center;
+    background: linear-gradient(to bottom, #000 60%, transparent 60%), url('./images/1.jpg') no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
 }
 
 .main {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 60%, #000 60%), url('1.jpg') no-repeat center center;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 60%, #000 60%), url('./images/1.jpg') no-repeat center center;
     background-size: cover;
-    min-height: 160vh; /* Sayfanın tamamını kaplamak için */
+    min-height: 100vh; 
 }
 
 
@@ -259,6 +259,15 @@ ul li a:hover {
     color: #ff7200;
 
 }
+.link a {
+    color: #ff7200; 
+    text-decoration: none;
+}
+
+.link a:hover {
+    text-decoration: underline;
+    color: #ff7200; 
+}
 /* about */
 .about-content {   
     text-align: center;
@@ -298,10 +307,9 @@ ul li a:hover {
 }
 .instructor-img { 
     width: 200px;
-    height: 200px; /* Resmi tam kare yaparak daire oluşturulmasını sağlıyoruz */
-    object-fit: cover; /* Resmin taşmadan kare içindeki tüm alanı kaplamasını sağlar */
-    border-radius: 50%; /* Tam dairesel şekil */
-    margin-bottom: 15px;
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 50%;
 }
 
 .instructor h3 {
